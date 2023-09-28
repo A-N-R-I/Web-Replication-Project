@@ -8,7 +8,7 @@ body {
     margin: auto;
     margin-top: 50px;
     width: fit-content;
-    /* background-color: green; */
+    /* background-color: red; */
 }
 
 .form-fieldset {
@@ -18,18 +18,9 @@ body {
     border-color: rgb(215, 215, 215);
 }
 
-#login-form {
-    width: fit-content;
-}
-
-.form-content-wrapper {
-    /* background-color: red; */
-    width: fit-content;
-    margin: auto;
-}
 
 h1 {
-    font-family: 'pacifico';
+    font-family: Pacifico;
     margin-bottom: 50px;
     font-size: 34px;
     font-weight: 500;
@@ -84,24 +75,6 @@ a {
     text-decoration: none;
 }
 
-
-.sign-up-section {
-    border-width: 1px;
-    border-color: rgb(215, 215, 215);
-    /* background-color: yellow; */
-    padding: 20px;
-    margin: 10px 0px 20px 0px;
-}
-
-.get-the-app-section img {
-    width: 8em;
-}
-
-.sign-up-section a {
-    font-weight: bold;
-    color: rgb(0, 149, 246);
-}
-
 .facebook-login {
     font-weight: 500;
     color: rgb(73, 96, 144);
@@ -115,4 +88,27 @@ a {
 
 .forgot-password a {
     color: rgb(46, 84, 128);
+}
+
+.sign-up-section {
+    border-width: 1px;
+    border-color: rgb(215, 215, 215);
+    /* background-color: yellow; */
+    padding: 20px;
+    margin: 10px 0px 20px 0px;
+}
+
+.sign-up-section a {
+    font-weight: bold;
+    color: rgb(0, 149, 246);
+}
+
+.microsoft-img {
+    width: 8em;
+}
+
+.google-img {
+    width: 9.3em;
+    height: 2.9em;
+    margin-right: 5px;
 }
